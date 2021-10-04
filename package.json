@@ -1,0 +1,26 @@
+{
+  "name": "javascript30",
+  "version": "1.0.0",
+  "description": "My solution to JavaScript30 using TypeScript",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "check:watch": "tsc --noEmit --watch",
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesbos/JavaScript30.git"
+  },
+  "author": "Jorge Eyzaguirre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesbos/JavaScript30/issues"
+  },
+  "homepage": "https://github.com/wesbos/JavaScript30#readme"
+}
